@@ -1,0 +1,198 @@
+
+body{
+  background-color: #EAF6F6;
+  color: #40514E;
+  margin: 0;
+  padding-top: 20px;
+}
+h1{
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 300;
+}
+h2{
+   font-family: 'Montserrat' , sans-serif;
+
+}
+h3{
+
+}
+p{
+  font-family: 'Quicksand' , sans-serif;
+  font-weight: 400;
+}
+span{
+  font-weight: 600;
+}
+.card-container{
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.flex-container-1{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  order: 2;
+}
+.flex-container-2{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  order: 1;
+}
+.flex-container-3{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  order: 3;
+}
+.top-container{
+  text-align: center;
+  margin: 0 0 60px 0;
+  padding : 20px;
+
+}
+.team{
+  margin: 0;
+  border: 3px solid;
+  border-color:  #679b9b;
+  border-color:  hsl(0, 78%, 62%);
+}
+.team-builder{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 0 0 30px 30px;
+  transition: 0.5s linear;
+}
+.team-builder:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 12px 1px rgba(1, 1, 255, .2);
+}
+.team-icon{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+
+}
+.team-description{
+  font-size: 15px;
+  line-height: 2;
+}
+.inside-builder{
+  margin: 10px;
+  margin-top: 5px;
+  padding: 20px;
+ height: 240px;
+ position: relative;
+
+}
+
+.karma{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 0 0 30px 30px;
+  transition: 0.5s linear;
+}
+.karma:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 12px 1px rgba(1, 1, 255, .2);
+}
+.karma-line{
+  margin: 0;
+  border: 3px solid;
+  border-color:  #ffa41b;
+  border-color: hsl(34, 97%, 64%);
+}
+.inside-karma{
+  margin: 10px;
+  margin-top: 5px;
+  padding: 20px;
+ height: 240px;
+ position: relative;
+}
+
+
+.karma-icon{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+.super{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 0 0 30px 30px;
+  transition: 0.5s linear;
+}
+.super:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 12px 1px rgba(1, 1, 255, .2);
+}
+.super-line{
+  margin: 0;
+  border: 3px solid;
+  border-color:  #27496d;
+  border-color: hsl(180, 62%, 55%);
+
+}
+.inside-super{
+  margin: 10px;
+  margin-top: 5px;
+  padding: 20px;
+ height: 240px;
+ position: relative;
+}
+.super-description{
+  font-size: 15px;
+  line-height: 2;
+}
+.super-icon{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+
+
+.calculator{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 0 0 30px 30px;
+  transition: 0.5s linear;
+}
+.calculator:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 12px 1px rgba(1, 1, 255, .2);
+}
+.cal-line{
+  margin: 0;
+  border: 3px solid;
+  border-color:  #be79df;
+  border-color: hsl(212, 86%, 64%);
+}
+.inside-cal{
+  margin: 10px;
+  margin-top: 5px;
+  padding: 20px;
+ height: 240px;
+ position: relative;
+}
+.cal-description{
+  font-size: 15px;
+  line-height: 2;
+}
+.cal-icon{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
